@@ -1,0 +1,5 @@
+@import "tailwindcss";
+:root {
+  --prime: #0071e4;
+  --green: #6fd91c;
+}
