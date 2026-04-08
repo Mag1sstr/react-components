@@ -1,7 +1,7 @@
-import { useQuery } from "@tanstack/react-query";
 import { createContext, useContext, useEffect, useState } from "react";
+import type { IUser } from "../types";
+import { useQuery } from "@tanstack/react-query";
 import axiosApi from "../api/axios";
-import type { IUser } from "../app/types/types";
 
 interface AuthContext {
   token: string;
